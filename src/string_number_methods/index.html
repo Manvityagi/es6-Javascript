@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    <div id = "str1"></div>
+    <div id = "str2"></div>
+    <div id = "str3"></div>
+
+    <script>
+          str1 = "YOO! It happens!";
+          str2 = "Git is awesome!";
+          str3 = "Backend DEV IS TOO OKAY!";
+          
+          document.getElementById('str1').innerHTML = `<b>${str1}</b> starts with YOO! : ${str1.startsWith('YOO!')}`;
+          document.getElementById('str2').innerHTML = `<b>${str2}</b> starts with bruhh! : ${str2.endsWith('YOO!')}`;
+          document.getElementById('str3').innerHTML = `<b>${str3}</b> includes front-end! : ${str3.includes('front-end')}`;
+
+          //hex
+          console.log(0xFF);
+          //binary
+          console.log(0b10100011);
+          //octal
+          console.log(00543);
+
+          console.log(Number.isFinite(NaN));
+          console.log(Number.isNaN('string'));
+          console.log(Number.isInteger(Infinity));
+
+
+          
+</script>
+         
+    
+</body>
+</html>
+
